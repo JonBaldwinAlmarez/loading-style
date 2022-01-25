@@ -1,0 +1,31 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata'); */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+/* Background */
+.bg {
+    background: url(Images/ashutosh-saraswat-CXyz3qljaH8-unsplash.jpg) no-repeat center center/cover ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
